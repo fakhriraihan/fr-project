@@ -76,20 +76,20 @@ export function ContactSection() {
     {
       icon: LinkedinIcon,
       label: "LinkedIn",
-      href: "https://linkedin.com/in/fakhriraihan",
-      username: "Fakhri Raihan",
+      href: "https://www.linkedin.com/in/fakhri-raihan/",
+      username: "fakhri-raihan",
     },
     {
       icon: Mail,
       label: "Email",
-      href: "mailto:fakhri@example.com",
-      username: "fakhri@example.com",
+      href: "mailto:fakhri.raihan13@gmail.com",
+      username: "fakhri.raihan13@gmail.com",
     },
     {
       icon: MapPin,
       label: "Location",
-      href: "#",
-      username: "Indonesia",
+      href: "https://www.google.com/maps/place/Jakarta",
+      username: "Jakarta, Indonesia",
     },
   ];
 
