@@ -32,11 +32,10 @@ export function Header() {
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        scrolled
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled
           ? "glass shadow-lg shadow-black/20"
           : "bg-transparent"
-      }`}
+        }`}
     >
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
@@ -68,13 +67,15 @@ export function Header() {
               </button>
             ))}
             <div className="ml-3 pl-3 border-l border-[#27272a]">
-              <Button
-                size="sm"
-                className="bg-[#10b981] hover:bg-[#059669] text-[#022c22] font-semibold gap-2 cursor-pointer"
+              <a
+                href="https://drive.google.com/file/d/1nw1fqsS3rf-exA3mW2zQM6lNZ2f3zBe2/view?usp=drive_link"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center rounded-md text-sm h-8 px-3 bg-[#10b981] hover:bg-[#059669] text-[#022c22] font-semibold gap-2 transition-colors cursor-pointer"
               >
                 <Download className="w-3.5 h-3.5" />
                 Download CV
-              </Button>
+              </a>
             </div>
           </div>
 
@@ -110,13 +111,15 @@ export function Header() {
                 </button>
               ))}
               <div className="pt-2">
-                <Button
-                  size="sm"
-                  className="w-full bg-[#10b981] hover:bg-[#059669] text-[#022c22] font-semibold gap-2"
+                <a
+                  href="ISI_LINK_CV_ANDA_DI_SINI"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center justify-center rounded-md text-sm h-8 px-3 w-full bg-[#10b981] hover:bg-[#059669] text-[#022c22] font-semibold gap-2 transition-colors"
                 >
                   <Download className="w-3.5 h-3.5" />
                   Download CV
-                </Button>
+                </a>
               </div>
             </div>
           </motion.div>
