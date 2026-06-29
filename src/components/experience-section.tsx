@@ -19,31 +19,34 @@ const experiences: Experience[] = [
   {
     id: "exp-1",
     role: "Land Database Supervisor",
-    company: "PT Cita Mineral Investindo Tbk",
+    company: "Cita Mineral Investindo (Harita Bauxite)",
     period: "September 2025 - Present",
     description:
-      "Responsible for managing the company's land database, ensuring data accuracy and integrity, and providing technical support to users.",
+      "Harita Bauxite is a leading Indonesian natural resources company with a fully integrated bauxite value chain, from mining to producing value-added alumina.",
     achievements: [
-      "Collaborated with cross-functional teams to design and implement a new land database management system.",
-      "Optimized data collection processes reducing data entry time by 30%.",
-      "Mentored junior engineers and established CI/CD practices for GIS workflows.",
+      "Managed spatial and operational enterprise databases & server system (ArcGIS Enterprise & Geoserver)",
+      "Built ETL pipelines using Python, SQL, and Apache Airflow for automated data processing and delivery.",
+      "Processed and analyzed multi-source mining data via APIs to generate insights for management.",
+      "Developed internal web applications, dashboards, and data platforms for monitoring and reporting.",
+      "Collaborated across teams to automate workflows, improve integration, and strengthen data governance.",
     ],
-    tech: ["Python", "PostGIS", "ArcGIS Pro", "ArcGIS Online", "ArcGIS Enterprise", "PostgreSQL"],
+    tech: ["Python", "SQL", "PostGIS", "Apache Airflow", "QGIS", "ArcGIS Pro", "ArcGIS Enterprise", "Geoserver", "PostgreSQL"],
   },
   {
     id: "exp-2",
     role: "GIS Engineer",
-    company: "PT Esri Indonesia",
+    company: "Esri Indonesia",
     period: "August 2024 - August 2025",
     description:
-      "Responsible for the implementation and development of GIS software and services for customers across various industries.",
+      "Esri is a global leader in GIS and location intelligence, serving Fortune 500 companies and holding over 45% of the GIS market share.",
     achievements: [
-      "Supporting customers with technical expertise and solutions for GIS software implementation.",
-      "Handling customer inquiries and providing technical support for GIS software and services.",
-      "Developing and delivering technical training programs for customers and partners.",
-      "Troubleshooting and resolving technical issues related to GIS software and services.",
+      "Developed GIS software solutions, ETL, and spatial datasets for more than 5 client projects.",
+      "Delivered over 5 GIS workshops and consultation sessions for various industries.",
+      "Managed and optimized enterprise systems and geodatabases across on-premise and cloud environments.",
+      "Conducted spatial data processing & analysis (Machine Learning) in banking & telecommunication industry.",
+      "Collected, cleaned, and organized over 2M+ POI data records for business and project use.",
     ],
-    tech: ["ArcGIS Pro", "ArcGIS Online", "ArcGIS Enterprise", "Python", "PostgreSQL"],
+    tech: ["ArcGIS Pro", "ArcGIS Online", "ArcGIS Enterprise", "Python", "SQL", "ArcPy", "Arcade", "RDBMS"],
   },
   {
     id: "exp-3",
@@ -51,14 +54,29 @@ const experiences: Experience[] = [
     company: "PT Esri Indonesia",
     period: "July 2023 - January 2024",
     description:
-      "Responsible for the implementation and development of GIS software and services for customers across various industries.",
+      "Selected among top students and fresh graduates from universities across Indonesia to gain hands-on experience in real-world projects.",
     achievements: [
-      "Supporting customers with technical expertise and solutions for GIS software implementation.",
-      "Handling customer inquiries and providing technical support for GIS software and services.",
-      "Developing and delivering technical training programs for customers and partners.",
-      "Troubleshooting and resolving technical issues related to GIS software and services.",
+      "Collected and managed 2M+ POI data to support a new business line (Data Service).",
+      "Built a scalable data management system with enterprise geodatabase and ArcGIS.",
+      "Collaborated with the team using Git to build and deploy automated scripts.",
+      "Executed automated data scraping from diverse external sources to enrich the dataset.",
+      "Developed market analysis case studies for banking and retail sectors using POI data.",
     ],
-    tech: ["ArcGIS Pro", "ArcGIS Online", "ArcGIS Enterprise", "Python", "PostgreSQL"],
+    tech: ["ArcGIS Pro", "ArcGIS Online", "ArcGIS Enterprise", "Python", "PostgreSQL", "SQL", "GIT"],
+  },
+  {
+    id: "exp-4",
+    role: "Research Assistant Lecturer",
+    company: "Universitas Gadjah Mada",
+    period: "August 2023 - August 2024",
+    description:
+      "Participated in two research projects: \"ChatGPT Research for the Creation of the 2020 Ambient Air Quality Web GIS for Yogyakarta City\" and \"The Creation of the Geovisualization Dashboard of the Indonesian Presidential Election Results in 2024\".",
+    achievements: [
+      "Assisted in designing research proposals and drafting academic publications.",
+      "Developed web-based systems and automated data crawling workflows.",
+      "Processed and visualized geospatial data for web dashboards.",
+    ],
+    tech: ["ArcGIS Pro", "ArcGIS Online", "ArcGIS Enterprise", "Python", "PostgreSQL", "SQL", "GIT"],
   },
 ];
 

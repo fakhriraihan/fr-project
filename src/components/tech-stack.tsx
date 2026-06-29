@@ -34,12 +34,14 @@ const techItems: TechItem[] = [
   { name: "Tailwind CSS", category: "Web" },
   { name: "TypeScript", category: "Web" },
   { name: "Leaflet", category: "Web" },
-  { name: "MapLibre GL", category: "Web" },
+  { name: "Mapbox", category: "Web" },
 
   // ML & AI
   { name: "Scikit-Learn", category: "ML" },
-  { name: "TensorFlow", category: "ML" },
+  { name: "Matplotlib", category: "ML" },
   { name: "XGBoost", category: "ML" },
+  { name: "NumPy", category: "ML" },
+  { name: "Geopandas", category: "ML" },
 
   // DevOps
   { name: "Docker", category: "DevOps" },
@@ -93,9 +95,8 @@ export function TechStack() {
           <motion.div key={item.name} variants={badgeVariants}>
             <Badge
               variant="outline"
-              className={`px-3 py-1 text-xs font-medium transition-colors cursor-default bg-transparent ${
-                categoryColors[item.category] || ""
-              }`}
+              className={`px-3 py-1 text-xs font-medium transition-colors cursor-default bg-transparent ${categoryColors[item.category] || ""
+                }`}
             >
               {item.name}
             </Badge>

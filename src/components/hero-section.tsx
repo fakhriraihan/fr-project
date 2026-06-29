@@ -44,8 +44,8 @@ export function HeroSection() {
         >
           Bridging the Gap Between{" "}
           <span className="gradient-text">Spatial Data</span>,{" "}
-          <span className="text-[#fafafa]">Cloud Engineering</span>, and{" "}
-          <span className="gradient-text">AI</span>.
+          <span className="text-[#fafafa]">Engineering</span>, and{" "}
+          <span className="gradient-text">GeoAI</span>.
         </motion.h1>
 
         {/* Subheading */}
@@ -57,7 +57,7 @@ export function HeroSection() {
         >
           Hi, I&apos;m{" "}
           <span className="text-[#fafafa] font-semibold">Fakhri Raihan</span>. I build
-          robust spatial data pipelines, manage enterprise geodatabases, develop
+          robust spatial data pipelines, analyse geospatial data, manage enterprise geodatabases, develop
           interactive web mapping applications, and deploy GeoAI models to turn
           complex data into actionable insights.
         </motion.p>
